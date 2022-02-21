@@ -17,6 +17,8 @@ type ToolExtrudeRequest struct {
 	// Amount is the amount of filament to extrude in mm. May be negative to
 	// retract.
 	Amount int `json:"amount"`
+	
+	Speed int `json:"speed"`
 }
 
 // Do sends an API request and returns an error if any.
