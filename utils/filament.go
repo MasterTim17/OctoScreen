@@ -82,7 +82,7 @@ func SetFlowRate(
 func SendExtrudeRrequest(
 	client					*octoprintApis.Client,
 	isForward				bool,
-	length					int,
+	length					float64,
 ) error {
 	cmd := &octoprintApis.ToolExtrudeRequest{}
 	if isForward {
@@ -91,7 +91,18 @@ func SendExtrudeRrequest(
 		cmd.Amount = -length
 	}
 
-	logger.Infof("filament.SendExtrudeRrequest() - sending extrude request with length of: %d", cmd.Amount)
+	if length > 100 {
+		cmd.Speed = 5000
+		cmd.Amount *= 0.9
+		if err := cmd.Do(client); err != nil {
+				logger.LogError("filament.Extrude()", "Do(ToolExtrudeRequest)", err)
+				return err
+		}
+		cmd.Amount *= 1.111
+	}
+
+
+	logger.Infof("filament.SendExtrudeRrequest() - sending extrude request with length of: %f", cmd.Amount)
 	if err := cmd.Do(client); err != nil {
 		logger.LogError("filament.Extrude()", "Do(ToolExtrudeRequest)", err)
 		return err
