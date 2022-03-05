@@ -98,7 +98,8 @@ func SendExtrudeRrequest(
 				logger.LogError("filament.Extrude()", "Do(ToolExtrudeRequest)", err)
 				return err
 		}
-		cmd.Amount = int(float32(cmd.Amount) * 1.111)
+		cmd.Speed = 500
+		cmd.Amount = int(float32(cmd.Amount) * 0.111)
 	}
 
 
