@@ -11,7 +11,7 @@ import (
 
 	"github.com/gotk3/gotk3/gdk"
 	"github.com/gotk3/gotk3/gtk"
-	"github.com/Z-Bolt/OctoScreen/logger"
+	"github.com/MasterTim17/OctoScreen/logger"
 )
 
 // MustWindow returns a new gtk.Window, if error panics.

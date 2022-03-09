@@ -1,4 +1,4 @@
-# OctoScreen [![GitHub release](https://img.shields.io/github/release/Z-Bolt/OctoScreen.svg)](https://github.com/Z-Bolt/OctoScreen/releases) [![license](https://img.shields.io/github/license/Z-Bolt/OctoScreen.svg)]()
+# OctoScreen [![GitHub release](https://img.shields.io/github/release/MasterTim17/OctoScreen.svg)](https://github.com/MasterTim17/OctoScreen/releases) [![license](https://img.shields.io/github/license/MasterTim17/OctoScreen.svg)]()
 
 _OctoScreen_ is a LCD touch interface for your OctoPrint server.  It is based on GTK+3 and allows you to control your 3D Printer using a [LCD touch screen](https://amzn.to/2L8cRkR), a [Raspberry Pi](https://amzn.to/39LPvvF), and [OctoPrint](https://octoprint.org/).  It's an _X application_ that's executed directly in the X Server without a window manager or browser, and operates as a frontend for OctoPrint.
 
@@ -73,23 +73,23 @@ If you are using `Raspbian` or any other `Debian` based distribution, required p
 sudo apt-get install libgtk-3-0 xserver-xorg xinit x11-xserver-utils
 ```
 
-You will also need to set up the video drivers for the display you are using.  Installation and configuration of the drivers is usually specific to the display you are using, and you will need to contact the manufacturer for instructions.  To help you set up your system and display, a setup guide ([Setting Up OctoScreen and Your Display](https://github.com/Z-Bolt/OctoScreen/wiki/Setting-Up-OctoScreen-and-Your-Display)) is available in the wiki.
+You will also need to set up the video drivers for the display you are using.  Installation and configuration of the drivers is usually specific to the display you are using, and you will need to contact the manufacturer for instructions.  To help you set up your system and display, a setup guide ([Setting Up OctoScreen and Your Display](https://github.com/MasterTim17/OctoScreen/wiki/Setting-Up-OctoScreen-and-Your-Display)) is available in the wiki.
 
 
 
 ### Install From a .deb Package
 
-There are two ways to install OctoScreen: the recommended and supported way is to install from a .deb package, or you can choose to install from building the sources yourself.  The recommended way to install OctoScreen is use the `.deb` packages from the [Releases](https://github.com/Z-Bolt/OctoScreen/releases) page.  The packages are available for Debian Stretch based distributions such as Raspbian and OctoPi.
+There are two ways to install OctoScreen: the recommended and supported way is to install from a .deb package, or you can choose to install from building the sources yourself.  The recommended way to install OctoScreen is use the `.deb` packages from the [Releases](https://github.com/MasterTim17/OctoScreen/releases) page.  The packages are available for Debian Stretch based distributions such as Raspbian and OctoPi.
 
 For example, to install on a new RaspberryPi with OctoPi:
 ```sh
-wget https://github.com/Z-Bolt/OctoScreen/releases/download/v2.7.4/octoscreen_2.7.4_armhf.deb
+wget https://github.com/MasterTim17/OctoScreen/releases/download/v2.7.4/octoscreen_2.7.4_armhf.deb
 sudo dpkg -i octoscreen_2.7.4_armhf.deb
 ```
 
 Or to update an existing version of OctoScreen:
 ```sh
-wget https://github.com/Z-Bolt/OctoScreen/releases/download/v2.7.4/octoscreen_2.7.4_armhf.deb
+wget https://github.com/MasterTim17/OctoScreen/releases/download/v2.7.4/octoscreen_2.7.4_armhf.deb
 sudo dpkg -r octoscreen
 sudo dpkg -i octoscreen_2.7.4_armhf.deb
 sudo reboot now
@@ -151,7 +151,7 @@ The basic configuration is handled via environment variables, if you are using t
 
 - `OCTOSCREEN_LOG_LEVEL` - Controls the level of logging.  Accepted values are (with increasing levels): `debug`, `info`, `warn`, and `error`.  If no value is provided, the log level will default to `warn`.
 
-- `OCTOSCREEN_RESOLUTION` - Resolution of the application, and should be configured to the resolution of your screen.  Optimal resolution for OctoScreen is no less than 800x480, so if the physical resolution of your screen is 480x320, it's recommended to set the software resolution 800x533.  If you are using Raspbian you can do it by changing [`hdmi_cvt`](https://www.raspberrypi.org/documentation/configuration/config-txt/video.md) param in `/boot/config.txt` file.  Please see [Setting Up OctoScreen and Your Display](https://github.com/Z-Bolt/OctoScreen/wiki/Setting-Up-OctoScreen-and-Your-Display) and [Installing OctoScreen with a 3.5" 480x320 TFT screen](https://github.com/Z-Bolt/OctoScreen/wiki/Installing-OctoScreen-with-a-3.5%22-480x320-TFT-screen) for more information.
+- `OCTOSCREEN_RESOLUTION` - Resolution of the application, and should be configured to the resolution of your screen.  Optimal resolution for OctoScreen is no less than 800x480, so if the physical resolution of your screen is 480x320, it's recommended to set the software resolution 800x533.  If you are using Raspbian you can do it by changing [`hdmi_cvt`](https://www.raspberrypi.org/documentation/configuration/config-txt/video.md) param in `/boot/config.txt` file.  Please see [Setting Up OctoScreen and Your Display](https://github.com/MasterTim17/OctoScreen/wiki/Setting-Up-OctoScreen-and-Your-Display) and [Installing OctoScreen with a 3.5" 480x320 TFT screen](https://github.com/MasterTim17/OctoScreen/wiki/Installing-OctoScreen-with-a-3.5%22-480x320-TFT-screen) for more information.
 
 - `DISPLAY_CURSOR` - To display the cursor, add `DISPLAY_CURSOR=true` to your config file.  In order to display the cursor, you will also need to edit `/lib/systemd/system/octoscreen.service` and remove `-nocursor`
 
@@ -171,16 +171,16 @@ The controls are limit to static controls without `inputs`.
 
 ------------
 ## Wiki
-For troubleshooting and general information about this project, be sure to check out the Wiki page, located at https://github.com/Z-Bolt/OctoScreen/wiki
+For troubleshooting and general information about this project, be sure to check out the Wiki page, located at https://github.com/MasterTim17/OctoScreen/wiki
 
 
 
 ------------
 <!--
-## [Roadmap](https://github.com/Z-Bolt/OctoScreen/projects/2)
+## [Roadmap](https://github.com/MasterTim17/OctoScreen/projects/2)
 -->
 ## Roadmap
-https://github.com/Z-Bolt/OctoScreen/wiki/Project-Roadmap
+https://github.com/MasterTim17/OctoScreen/wiki/Project-Roadmap
 
 
 

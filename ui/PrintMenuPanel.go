@@ -1,8 +1,8 @@
 package ui
 
 import (
-	// "github.com/Z-Bolt/OctoScreen/interfaces"
-	"github.com/Z-Bolt/OctoScreen/utils"
+	// "github.com/MasterTim17/OctoScreen/interfaces"
+	"github.com/MasterTim17/OctoScreen/utils"
 )
 
 

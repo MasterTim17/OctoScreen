@@ -4,9 +4,9 @@ import (
 	// "fmt"
 	"strings"
 
-	"github.com/Z-Bolt/OctoScreen/octoprintApis"
-	// "github.com/Z-Bolt/OctoScreen/octoprintApis/dataModels"
-	"github.com/Z-Bolt/OctoScreen/utils"
+	"github.com/MasterTim17/OctoScreen/octoprintApis"
+	// "github.com/MasterTim17/OctoScreen/octoprintApis/dataModels"
+	"github.com/MasterTim17/OctoScreen/utils"
 )
 
 type OctoScreenInfoBox struct {

@@ -2,9 +2,9 @@ package uiWidgets
 
 import (
 	"github.com/gotk3/gotk3/gtk"
-	"github.com/Z-Bolt/OctoScreen/logger"
-	"github.com/Z-Bolt/OctoScreen/octoprintApis"
-	"github.com/Z-Bolt/OctoScreen/octoprintApis/dataModels"
+	"github.com/MasterTim17/OctoScreen/logger"
+	"github.com/MasterTim17/OctoScreen/octoprintApis"
+	"github.com/MasterTim17/OctoScreen/octoprintApis/dataModels"
 )
 
 type MoveButton struct {

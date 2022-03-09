@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Z-Bolt/OctoScreen/octoprintApis"
+	"github.com/MasterTim17/OctoScreen/octoprintApis"
 	"github.com/mgutz/logxi/v1"
 )
 

@@ -3,10 +3,10 @@ package utils
 import (
 	"time"
 
-	"github.com/Z-Bolt/OctoScreen/interfaces"
-	"github.com/Z-Bolt/OctoScreen/logger"
-	"github.com/Z-Bolt/OctoScreen/octoprintApis"
-	// "github.com/Z-Bolt/OctoScreen/octoprintApis/dataModels"
+	"github.com/MasterTim17/OctoScreen/interfaces"
+	"github.com/MasterTim17/OctoScreen/logger"
+	"github.com/MasterTim17/OctoScreen/octoprintApis"
+	// "github.com/MasterTim17/OctoScreen/octoprintApis/dataModels"
 )
 
 

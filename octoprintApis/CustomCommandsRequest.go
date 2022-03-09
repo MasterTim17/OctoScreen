@@ -7,7 +7,7 @@ import (
 	// "io"
 	// "strings"
 
-	"github.com/Z-Bolt/OctoScreen/octoprintApis/dataModels"
+	"github.com/MasterTim17/OctoScreen/octoprintApis/dataModels"
 )
 
 

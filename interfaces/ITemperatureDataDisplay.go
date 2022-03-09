@@ -1,8 +1,8 @@
 package interfaces
 
 import (
-	// "github.com/Z-Bolt/OctoScreen/octoprintApis"
-	"github.com/Z-Bolt/OctoScreen/octoprintApis/dataModels"
+	// "github.com/MasterTim17/OctoScreen/octoprintApis"
+	"github.com/MasterTim17/OctoScreen/octoprintApis/dataModels"
 )
 
 type ITemperatureDataDisplay interface {

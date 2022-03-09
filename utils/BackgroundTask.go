@@ -5,7 +5,7 @@ import (
 	"sync"
 
 	"github.com/gotk3/gotk3/glib"
-	"github.com/Z-Bolt/OctoScreen/logger"
+	"github.com/MasterTim17/OctoScreen/logger"
 )
 
 

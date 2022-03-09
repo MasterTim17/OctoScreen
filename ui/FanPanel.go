@@ -4,9 +4,9 @@ import (
 	// "fmt"
 
 	// "github.com/gotk3/gotk3/gtk"
-	// "github.com/Z-Bolt/OctoScreen/interfaces"
-	"github.com/Z-Bolt/OctoScreen/uiWidgets"
-	// "github.com/Z-Bolt/OctoScreen/utils"
+	// "github.com/MasterTim17/OctoScreen/interfaces"
+	"github.com/MasterTim17/OctoScreen/uiWidgets"
+	// "github.com/MasterTim17/OctoScreen/utils"
 )
 
 

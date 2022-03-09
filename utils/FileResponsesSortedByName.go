@@ -5,9 +5,9 @@ import (
 	// "sort"
 	// "strings"
 
-	// "github.com/Z-Bolt/OctoScreen/octoprintApis"
-	"github.com/Z-Bolt/OctoScreen/octoprintApis/dataModels"
-	// "github.com/Z-Bolt/OctoScreen/uiWidgets"
+	// "github.com/MasterTim17/OctoScreen/octoprintApis"
+	"github.com/MasterTim17/OctoScreen/octoprintApis/dataModels"
+	// "github.com/MasterTim17/OctoScreen/uiWidgets"
 )
 
 

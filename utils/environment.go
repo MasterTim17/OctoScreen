@@ -6,7 +6,7 @@ import (
 	//"strings"
 
 
-	"github.com/Z-Bolt/OctoScreen/logger"
+	"github.com/MasterTim17/OctoScreen/logger"
 )
 
 

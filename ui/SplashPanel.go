@@ -4,8 +4,8 @@ package ui
 import (
 	"github.com/gotk3/gotk3/gtk"
 
-	"github.com/Z-Bolt/OctoScreen/logger"
-	"github.com/Z-Bolt/OctoScreen/utils"
+	"github.com/MasterTim17/OctoScreen/logger"
+	"github.com/MasterTim17/OctoScreen/utils"
 )
 
 type SplashPanel struct {

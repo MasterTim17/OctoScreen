@@ -16,10 +16,10 @@ import (
 	"github.com/gotk3/gotk3/gtk"
 	"github.com/sirupsen/logrus"
 
-	"github.com/Z-Bolt/OctoScreen/logger"
-	// "github.com/Z-Bolt/OctoScreen/octoprintApis"
-	"github.com/Z-Bolt/OctoScreen/ui"
-	"github.com/Z-Bolt/OctoScreen/utils"
+	"github.com/MasterTim17/OctoScreen/logger"
+	// "github.com/MasterTim17/OctoScreen/octoprintApis"
+	"github.com/MasterTim17/OctoScreen/ui"
+	"github.com/MasterTim17/OctoScreen/utils"
 
 	"gopkg.in/yaml.v1"
 )
@@ -375,7 +375,7 @@ func getSize() (width int, height int, err error) {
 
 func setCursor() {
 	// For reference, see "How to turn on a pointer"
-	// 	https://github.com/Z-Bolt/OctoScreen/issues/285
+	// 	https://github.com/MasterTim17/OctoScreen/issues/285
 	// and "No mouse pointer when running xinit"
 	// 	https://www.raspberrypi.org/forums/viewtopic.php?t=139546
 

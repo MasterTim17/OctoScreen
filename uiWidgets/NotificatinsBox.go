@@ -8,7 +8,7 @@ import (
 	"github.com/gotk3/gotk3/glib"
 	"github.com/gotk3/gotk3/gtk"
 	"github.com/sirupsen/logrus"
-	"github.com/Z-Bolt/OctoScreen/utils"
+	"github.com/MasterTim17/OctoScreen/utils"
 )
 
 type NotificationsBox struct {

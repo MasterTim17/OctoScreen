@@ -8,11 +8,11 @@ import (
 	// "sync"
 	"time"
 
-	"github.com/Z-Bolt/OctoScreen/octoprintApis"
-	"github.com/Z-Bolt/OctoScreen/octoprintApis/dataModels"
-	"github.com/Z-Bolt/OctoScreen/logger"
-	"github.com/Z-Bolt/OctoScreen/uiWidgets"
-	"github.com/Z-Bolt/OctoScreen/utils"
+	"github.com/MasterTim17/OctoScreen/octoprintApis"
+	"github.com/MasterTim17/OctoScreen/octoprintApis/dataModels"
+	"github.com/MasterTim17/OctoScreen/logger"
+	"github.com/MasterTim17/OctoScreen/uiWidgets"
+	"github.com/MasterTim17/OctoScreen/utils"
 )
 
 

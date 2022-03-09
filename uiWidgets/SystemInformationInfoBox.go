@@ -8,8 +8,8 @@ import (
 	"github.com/dustin/go-humanize"
 	"github.com/gotk3/gotk3/gtk"
 	"github.com/shirou/gopsutil/mem"
-	"github.com/Z-Bolt/OctoScreen/logger"
-	"github.com/Z-Bolt/OctoScreen/utils"
+	"github.com/MasterTim17/OctoScreen/logger"
+	"github.com/MasterTim17/OctoScreen/utils"
 )
 
 type SystemInformationInfoBox struct {
